@@ -1,0 +1,10 @@
+public void listeAusgeben(){
+  einkaufsliste.toFirst();
+
+  while(einkaufsliste.hasAccess()){
+
+    System.out.println(einkaufsliste.current.getArtikelName());
+    einkaufsliste.next();
+  }
+
+}
